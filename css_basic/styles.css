@@ -1,4 +1,4 @@
-body{
+body.works on{
     display: flex;
      flex-direction: column;
     margin: 0;
@@ -6,7 +6,7 @@ body{
     font-family: Arial, sans-serif;
 
 }
-main{
+body.works on smartphone main{
     display: flex;
     flex-direction: row;
     flex: auto;
@@ -18,12 +18,12 @@ header, footer {
     padding: 1em 0;
 
 }
-article{
+body.works on smartphone article{
     flex: 2;
     padding: 20px;
     overflow-y: auto;
 }
-aside{
+body.works on smartphone aside{
     flex: 1;
     padding: 20px;
     overflow-y: auto;
