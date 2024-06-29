@@ -11,22 +11,58 @@ body.works on smartphone main{
     flex-direction: row;
     flex: auto;
 }
-header, footer {
+header {
     background-color: black;
     color: white;
     text-align: center;
     padding: 1em 0;
 
 }
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    margin:0 10px
+}
+header ul li a {
+    color: purple;
+    text-decoration: none;
+    font-size: 20px;
+}
+header ul li a:hover{
+    text-decoration: underline;
+}
+.logo{
+    font-size: 50px;
+    margin-right: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
 body.works on smartphone article{
     flex: 2;
     padding: 20px;
     overflow-y: auto;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: white;
 }
 body.works on smartphone aside{
     flex: 1;
     padding: 20px;
     overflow-y: auto;
+    background-color: blue;
+    border-radius: 10px;
 }
 html body{
     height: 100%;
@@ -34,9 +70,13 @@ html body{
 }
 main{
     flex:auto;
+    display: flex;
+    padding: 30px;
 }
 footer{
     text-align: center;
-    padding: 1em 0;
+    padding: 15px;
+    background-color: brown;
+    color: white;
 }
 
