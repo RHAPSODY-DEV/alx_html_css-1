@@ -1,0 +1,292 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header a img {
+    max-height: 50px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Banner */
+#banner {
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#banner button {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#banner button:hover {
+    background-color: #e0a800;
+}
+
+/* Featured Courses */
+#banner > div + div {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#banner > div + div h2 {
+    margin-bottom: 20px;
+}
+
+#banner > div + div > div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#banner > div + div > div > div {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#banner > div + div > div > div img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#banner > div + div > div > div h3 {
+    margin: 10px 0;
+}
+
+/* Quote Section */
+#quote {
+    background-color: #ffc107;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#quote div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote div img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#quote blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Videos Section */
+#videos {
+    padding: 40px 20px;
+}
+
+#videos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#videos > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#videos > div > div {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#videos > div > div img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#videos > div > div h3 {
+    margin: 10px 0;
+}
+
+#videos > div > div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#videos > div > div div img {
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#videos > div > div div h4 {
+    margin: 0;
+}
+
+#videos > div > div div + div {
+    margin-top: 10px;
+}
+
+#videos > div > div div + div img {
+    max-width: 20px;
+    margin: 0 2px;
+}
+
+#videos > div > div div + div p {
+    margin: 0;
+}
+
+/* Membership Section */
+#membership {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+#membership h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#membership > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#membership > div > div {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#membership > div > div img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#membership > div > div h3 {
+    margin: 10px 0;
+}
+
+#membership > div > div button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#membership > div > div button:hover {
+    background-color: #0056b3;
+}
+
+/* FAQ Section */
+#faq {
+    padding: 40px 20px;
+}
+
+#faq > div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#faq > div > div {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#faq > div > div h3 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    margin: 0 5px;
+}
+
+footer p {
+    margin-top: 10px;
+}
