@@ -4,6 +4,12 @@
     max-width: var(--max-width);
     margin: 0 auto;
 }
+h1 {
+    color: white;
+}
+.hero p {
+    color: white;
+}
 
 a {
     color: inherit;
@@ -89,18 +95,31 @@ nav ul li a {
         padding: 10px 20px;
     }
 }
-/* What We Do Section */
+
+/* What we do Section */
 .what-we-do {
-    padding: 50px 20px;
-    background-color: white
+    padding: 60px 0;
+    background-color: white;
+}
+
+.what-we-do .icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+h1 {
+    color: white;
+}
+
+.icon {
     text-align: center;
 }
 
-.what-we-do h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+.icon-img {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
 }
-
 .services {
     display: flex;
     justify-content: space-around;
@@ -132,5 +151,105 @@ nav ul li a {
     font-size: 1rem;
     color: #666;
 }
+
+/*Our results section*/
+.results {
+    padding: 60px;
+    background-color: var(--bg-color);
+}
+.results {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.results p  {
+    text-align: center;
+    color: white;
+}
+
+
+.results-img {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+/* styling forpentagon */
+.pentagons {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+/* Contact Us Section */
+.contact-us {
+    padding: 60px;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-us form {
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us input, .contact-us textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.contact-us button {
+    background-color: red;
+    color:white;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 80px;
+    width: 140px;
+
+}
+
+.contact-us button:hover, .contact-us button:active {
+    opacity: 0.9;
+}
+
+/* Footer Section */
+footer {
+    padding: 30px ;
+    color: white;
+    background-color: rgb(3, 3, 49);
+    font-size: small;
+}
+
+footer .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    padding-inline: 20px;
+}
+footer p {
+    text-align: center;
+}
+
 
 
