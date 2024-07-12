@@ -251,5 +251,11 @@ footer p {
     text-align: center;
 }
 
-
-
+/* new styling in the css file */
+.image img {
+    width: 200px;
+}
+input {
+    border: none;
+    border-bottom: solid 2px gray;
+}
